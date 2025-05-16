@@ -9,11 +9,11 @@
     <h1>Ini adalah halaman genre dari buku ini</h1>
     <p>Selamat datang di genre buku</p>
 
-    @foreach ($genres as $item)
+    @foreach ($genres as $genre)
         <ul>
-            <li>{{$item['id']}}</li>
-            <li>{{$item['name']}}</li>
-            <li>{{$item['description']}}</li>
+            <li>{{$genre['id']}}</li>
+            <li>{{$genre['name']}}</li>
+            <li>{{$genre['description']}}</li>
         </ul>
     @endforeach
 </body>

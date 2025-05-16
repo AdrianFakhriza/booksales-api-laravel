@@ -7,9 +7,14 @@ use Illuminate\Http\Request;
 
 class AuthorController extends Controller
 {
+    // public function index() {
+    //     $data = new Author();
+    //     $authors = $data->getAuthors();
+    //     return view('authors', ['authors' => $authors]);
+    // }
+
     public function index() {
-        $data = new Author();
-        $authors = $data->getAuthors();
+        $authors = Author::all();
         return view('authors', ['authors' => $authors]);
     }
 }

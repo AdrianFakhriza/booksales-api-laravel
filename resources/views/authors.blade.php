@@ -9,12 +9,12 @@
     <h1>Ini adalah halaman author dari buku</h1>
     <p>Selamat datang di author buku</p>
 
-    @foreach ($authors as $item)
+    @foreach ($authors as $author)
         <ul>
-            <li>{{$item['id']}}</li>
-            <li>{{$item['name']}}</li>
-            <li>{{$item['description']}}</li>
-            <li>{{$item['photo']}}</li>
+            <li>{{$author['id']}}</li>
+            <li>{{$author['name']}}</li>
+            <li>{{$author['description']}}</li>
+            <li>{{$author['photo']}}</li>
         </ul>
     @endforeach
  
