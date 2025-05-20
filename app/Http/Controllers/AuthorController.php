@@ -50,7 +50,7 @@ class AuthorController extends Controller
 
     return response()->json([
         'success' => true,
-        'message' => 'Book created successfully',
+        'message' => 'Author created successfully',
         'data' => $author
     ], 201);
 }
