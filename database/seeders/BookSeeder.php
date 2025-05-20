@@ -19,6 +19,8 @@ class BookSeeder extends Seeder
             'price' => 80000,
             'stock' => 100,
             'cover_photo' => 'https://example.com/harry_potter.jpg',
+            'genre_id' => 1,
+            'author_id' => 1,
         ]);
         Book::create([
             'title' => 'The Hobbit',
@@ -26,6 +28,8 @@ class BookSeeder extends Seeder
             'price' => 60000,
             'stock' => 50,
             'cover_photo' => 'https://example.com/the_hobbit.jpg',
+            'genre_id' => 2,
+            'author_id' => 2,
         ]);
         Book::create([
             'title' => 'To Kill a Mockingbird',
@@ -33,6 +37,8 @@ class BookSeeder extends Seeder
             'price' => 70000,
             'stock' => 30,
             'cover_photo' => 'https://example.com/to_kill_a_mockingbird.jpg',
+            'genre_id' => 3,
+            'author_id' => 3,
         ]);
         Book::create([
             'title' => '1984',
@@ -40,6 +46,8 @@ class BookSeeder extends Seeder
             'price' => 75000,
             'stock' => 20,
             'cover_photo' => 'https://example.com/1984.jpg',
+            'genre_id' => 4,
+            'author_id' => 4,
         ]);
         Book::create([
             'title' => 'Pride and Prejudice',
@@ -47,6 +55,8 @@ class BookSeeder extends Seeder
             'price' => 65000,
             'stock' => 40,
             'cover_photo' => 'https://example.com/pride_and_prejudice.jpg',
+            'genre_id' => 5,
+            'author_id' => 5,
         ]);
     }
 }
